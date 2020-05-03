@@ -35,7 +35,12 @@ I.e. If someone called your function with 10 objects
 (with all safely have the same properties), it should work just as well.
 */
 
-// your answer is here
+function tallEnoughToRide(groupA) {
+  return filter(groupA,function(element,i){
+    return element.heightInInches>=48
+  })
+
+
 
 /*
 2-Working off of the same data structure as tallEnoughToRide, 
@@ -50,4 +55,4 @@ tallestPerson(groupA); //"Kiana at 55 inches"
 
 */
 
-// your answer is here
+// 
